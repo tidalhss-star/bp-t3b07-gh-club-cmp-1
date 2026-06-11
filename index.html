@@ -1,199 +1,662 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>애니 매니아 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>공항 클럽 비교 | 라운지 껍질 깨부수는 리얼 리뷰</title>
+    <meta name="description" content="돈 아깝게 VIP 라운지 끼고 있냐? 진짜 클럽은 따로 있다. 공항 라운지, 면세점, 프리미엄 클럽 까발리는 비교. 니가 가야 할 곳을 알려준다. 전화 010-6279-0862">
+    <meta name="keywords" content="공항 클럽 비교, 공항 라운지 추천, 프리미엄 라운지, 비즈니스 클럽, 면세점 라운지, VIP 라운지, 공항 클럽 리뷰, 라운지 꿀팁">
+    <meta name="author" content="Bro 클럽 킬러">
+    <link rel="canonical" href="https://t3b07-gh-club-cmp-1.vercel.app/">
+
+    <!-- 디자인 시스템 메타 -->
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+
+    <!-- OG 메타 + Twitter Card -->
+    <meta property="og:title" content="공항 클럽 비교 | 라운지 껍질 깨부수는 리얼 리뷰">
+    <meta property="og:description" content="돈 아깝게 VIP 라운지 끼고 있냐? 진짜 클럽은 따로 있다. 공항 라운지, 면세점, 프리미엄 클럽 까발리는 비교.">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%231a1a1a'/%3E%3Ctext x='60' y='380' font-family='Impact' font-size='120' fill='%23ff6b35' font-weight='bold' transform='rotate(-6 60 380)'%3E%3C!%5BCDATA[CLUB KILLER%5D%5D%3E%3C/text%3E%3Ctext x='60' y='500' font-family='system-ui' font-size='40' fill='%23e5e5e5' font-weight='bold'%3E%3C!%5BCDATA[라운지 까발림%5D%5D%3E%3C/text%3E%3C/svg%3E">
+    <meta property="og:url" content="https://t3b07-gh-club-cmp-1.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="공항 클럽 비교 | 라운지 껍질 깨부수는 리얼 리뷰">
+    <meta name="twitter:description" content="돈 아깝게 VIP 라운지 끼고 있냐? 진짜 클럽은 따로 있다. 공항 라운지, 면세점, 프리미엄 클럽 까발리는 비교.">
+    <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%231a1a1a'/%3E%3Ctext x='60' y='380' font-family='Impact' font-size='120' fill='%23ff6b35' font-weight='bold' transform='rotate(-6 60 380)'%3E%3C!%5BCDATA[CLUB KILLER%5D%5D%3E%3C/text%3E%3Ctext x='60' y='500' font-family='system-ui' font-size='40' fill='%23e5e5e5' font-weight='bold'%3E%3C!%5BCDATA[라운지 까발림%5D%5D%3E%3C/text%3E%3C/svg%3E">
+
+    <!-- JSON-LD 스키마 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "공항 클럽 비교",
+        "url": "https://t3b07-gh-club-cmp-1.vercel.app/",
+        "description": "공항 라운지, 프리미엄 클럽 비교 리뷰 사이트. 진짜 클럽 경험을 찾는 사람들을 위한 날카로운 비교.",
+        "telephone": "010-6279-0862",
+        "inLanguage": "ko",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://t3b07-gh-club-cmp-1.vercel.app/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
-    }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
-    }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
-    }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
-    }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
-  </style>
+    </script>
+
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #e5e5e5;
+            font-family: 'Impact', 'Arial Black', 'Helvetica Neue', system-ui, sans-serif;
+            font-weight: 700;
+            line-height: 1.1;
+            min-height: 100vh;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        img, svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        a {
+            color: #ff6b35;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            transition: border-color 0.15s, color 0.15s;
+        }
+
+        a:hover, a:focus {
+            border-bottom-color: #ff6b35;
+            color: #e5e5e5;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            color: #e5e5e5;
+        }
+
+        h1 {
+            font-size: clamp(3.5rem, 12vw, 7rem);
+            line-height: 0.85;
+            margin-bottom: 0.2em;
+            transform: rotate(-2deg);
+            transform-origin: left center;
+        }
+
+        h2 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            border-bottom: 6px solid #ff6b35;
+            padding-bottom: 0.15em;
+            display: inline-block;
+            margin-bottom: 32px;
+            transform: skew(-4deg);
+        }
+
+        h3 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            transform: rotate(1deg);
+        }
+
+        p, li, blockquote {
+            font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', monospace;
+            font-weight: 500;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            color: #b3b3b3;
+        }
+
+        .bro-text {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            color: #ff6b35;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: none;
+            padding: 48px;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+        }
+
+        header, footer {
+            padding: 48px 48px;
+        }
+
+        header {
+            padding-top: 32px;
+            padding-bottom: 16px;
+            border-bottom: 6px solid #ff6b35;
+            margin-bottom: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+            transform: rotate(-0.5deg);
+        }
+
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 900;
+            color: #e5e5e5;
+            background: #1a1a1a;
+            padding: 4px 12px;
+            border: 6px solid #ff6b35;
+            display: inline-block;
+            transform: rotate(-3deg);
+            font-family: 'Impact', 'Arial Black', sans-serif;
+        }
+
+        .logo span {
+            color: #ff6b35;
+        }
+
+        /* ===== NAV ===== */
+        nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            font-size: 1.4rem;
+            padding: 6px 16px;
+            border: 4px solid transparent;
+            background: transparent;
+            color: #e5e5e5;
+            text-transform: uppercase;
+            transition: 0.1s;
+            border-bottom: 4px solid #ff6b35;
+            transform: skew(-7deg);
+        }
+
+        nav a:hover {
+            background: #ff6b35;
+            color: #1a1a1a;
+            border-color: #ff6b35;
+            transform: skew(-7deg) scale(1.02);
+        }
+
+        .phone-link {
+            font-size: 1.6rem;
+            font-weight: 900;
+            color: #ff6b35;
+            border: 4px solid #ff6b35;
+            padding: 8px 24px;
+            background: #1a1a1a;
+            transform: rotate(2deg);
+            font-family: 'Courier New', monospace;
+        }
+
+        .phone-link:hover {
+            background: #ff6b35;
+            color: #1a1a1a;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 8px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            border: 4px solid #ff6b35;
+            transform: rotate(3deg);
+        }
+
+        .hamburger span {
+            display: block;
+            width: 40px;
+            height: 6px;
+            background: #ff6b35;
+            border-radius: 0;
+        }
+
+        .nav-open {
+            display: flex !important;
+        }
+
+        @media (max-width: 768px) {
+            .container, header, footer {
+                padding: 24px;
+                gap: 48px;
+            }
+
+            header {
+                flex-direction: row;
+                align-items: center;
+                gap: 16px;
+                border-bottom-width: 6px;
+                margin-bottom: 16px;
+            }
+
+            .logo {
+                font-size: 2rem;
+                padding: 4px 10px;
+                border-width: 4px;
+            }
+
+            nav {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                gap: 8px;
+                background: #1a1a1a;
+                border: 6px solid #ff6b35;
+                padding: 24px;
+                margin-top: 16px;
+                transform: rotate(1deg);
+            }
+
+            nav a {
+                font-size: 1.6rem;
+                border-bottom: 4px solid #ff6b35;
+                width: 100%;
+                transform: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .phone-link {
+                font-size: 1.3rem;
+                padding: 6px 14px;
+            }
+
+            h1 {
+                font-size: 3rem;
+                transform: rotate(-2deg);
+            }
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            padding: 16px 0;
+            border: 6px solid #1a1a1a;
+            background: #1a1a1a;
+            position: relative;
+            margin: 0 -48px;
+            padding: 48px;
+            background: linear-gradient(145deg, #1a1a1a 0%, #2a2a2a 100%);
+            box-shadow: inset 0 0 0 6px #ff6b35;
+            transform: rotate(-1deg);
+        }
+
+        .hero-visual {
+            background: repeating-linear-gradient(45deg, #ff6b35 0px, #ff6b35 8px, #1a1a1a 8px, #1a1a1a 16px);
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 6px solid #e5e5e5;
+            transform: rotate(3deg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-visual::before {
+            content: '✈️ 🍸 🔥';
+            font-size: 6rem;
+            display: block;
+            text-align: center;
+            line-height: 1;
+            filter: drop-shadow(4px 4px 0 #1a1a1a);
+            transform: rotate(-5deg);
+        }
+
+        .hero-text {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        .hero-text h2 {
+            border-bottom: 8px solid #ff6b35;
+            transform: skew(-9deg);
+            margin-bottom: 0;
+        }
+
+        .hero-text p {
+            font-size: 1.5rem;
+            background: #1a1a1a;
+            padding: 12px 24px;
+            border-left: 8px solid #ff6b35;
+            font-weight: 700;
+            color: #e5e5e5;
+            transform: rotate(0.5deg);
+        }
+
+        .hero .cta {
+            font-family: 'Courier New', monospace;
+            font-size: 2rem;
+            font-weight: 900;
+            background: #ff6b35;
+            color: #1a1a1a;
+            padding: 16px 32px;
+            border: none;
+            text-align: center;
+            text-transform: uppercase;
+            transform: rotate(-2deg);
+            transition: 0.1s;
+            border: 4px solid #e5e5e5;
+            align-self: flex-start;
+        }
+
+        .hero .cta:hover {
+            background: #e5e5e5;
+            color: #1a1a1a;
+            transform: rotate(2deg) scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                margin: 0 -24px;
+                padding: 24px;
+                transform: none;
+            }
+            .hero-visual {
+                min-height: 200px;
+            }
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            padding: 48px 0;
+            border-top: 6px solid #ff6b35;
+            margin-top: 0;
+        }
+
+        .section-title-wrapper {
+            margin-bottom: 48px;
+            border-left: 12px solid #ff6b35;
+            padding-left: 24px;
+            transform: skew(-2deg);
+        }
+
+        /* ===== REVIEW CARDS ===== */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            padding: 0;
+        }
+
+        .review-card {
+            background: #222;
+            border: 6px solid #e5e5e5;
+            padding: 32px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            transform: rotate(var(--rot, 0deg));
+            transition: 0.1s;
+            box-shadow: 8px 8px 0 #ff6b35;
+        }
+
+        .review-card:nth-child(odd) {
+            --rot: -1deg;
+        }
+
+        .review-card:nth-child(even) {
+            --rot: 2deg;
+        }
+
+        .review-card:hover {
+            transform: rotate(0deg) scale(1.01);
+        }
+
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            border-bottom: 4px solid #ff6b35;
+            padding-bottom: 8px;
+        }
+
+        .review-meta .name {
+            font-weight: 900;
+            color: #ff6b35;
+            text-transform: uppercase;
+        }
+
+        .review-meta .date {
+            color: #888;
+        }
+
+        .review-stars {
+            color: #ff6b35;
+            font-size: 1.8rem;
+            letter-spacing: -2px;
+        }
+
+        .review-card blockquote {
+            font-size: 1.1rem;
+            line-height: 1.4;
+            color: #ccc;
+            border-left: 6px solid #e5e5e5;
+            padding-left: 16px;
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        /* ===== COMPARE TABLE (brutalist) ===== */
+        .compare-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            border: 6px solid #e5e5e5;
+            padding: 32px;
+            background: #1a1a1a;
+            transform: rotate(0.7deg);
+        }
+
+        .compare-item {
+            border: 4px solid #ff6b35;
+            padding: 24px;
+            background: #1a1a1a;
+            text-align: center;
+            transition: 0.1s;
+        }
+
+        .compare-item h3 {
+            font-size: 2rem;
+            border-bottom: 4px solid #e5e5e5;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            transform: skew(-3deg);
+        }
+
+        .compare-item .emoji-big {
+            font-size: 4rem;
+            line-height: 1;
+        }
+
+        .compare-item ul {
+            margin-top: 16px;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+        }
+
+        .compare-item ul li {
+            padding: 8px 0;
+            border-bottom: 2px solid #333;
+            display: flex;
+            gap: 8px;
+        }
+
+        .compare-item ul li::before {
+            content: '▶';
+            color: #ff6b35;
+            font-weight: 900;
+        }
+
+        @media (max-width: 768px) {
+            .compare-grid {
+                grid-template-columns: 1fr;
+                padding: 16px;
+                transform: none;
+            }
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-block {
+            background: #1a1a1a;
+            border: 8px solid #ff6b35;
+            padding: 64px 48px;
+            text-align: center;
+            transform: rotate(-1deg);
+            margin: 32px 0;
+        }
+
+        .cta-block h2 {
+            border-bottom: none;
+            transform: rotate(-3deg);
+            font-size: 4rem;
+        }
+
+        .cta-block .big-phone {
+            font-size: 3rem;
+            font-family: 'Courier New', monospace;
+            color: #ff6b35;
+            background: #1a1a1a;
+            padding: 16px 48px;
+            border: 6px solid #e5e5e5;
+            display: inline-block;
+            margin-top: 24px;
+            transform: rotate(2deg);
+            transition: 0.1s;
+        }
+
+        .cta-block .big-phone:hover {
+            background: #ff6b35;
+            color: #1a1a1a;
+        }
+
+        @media (max-width: 768px) {
+            .cta-block {
+                padding: 32px 16px;
+            }
+            .cta-block h2 {
+                font-size: 2.5rem;
+            }
+            .cta-block .big-phone {
+                font-size: 2rem;
+                padding: 12px 24px;
+            }
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            border-top: 8px solid #ff6b35;
+            padding-top: 48px;
+            margin-top: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 32px;
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            color: #888;
+            border-bottom: none;
+        }
+
+        footer .copyright {
+            font-weight: 700;
+            color: #666;
+        }
+
+        footer a {
+            color: #ff6b35;
+            font-weight: 700;
+        }
+
+        /* ===== MISC ===== */
+        .tagline {
+            font-family: 'Courier New', monospace;
+            font-weight: 900;
+            font-size: 1.8rem;
+            color: #ff6b35;
+            transform: rotate(-4deg);
+            border: 4px solid #e5e5e5;
+            padding: 8px 24px;
+            display: inline-block;
+            background: #1a1a1a;
+            margin: 16px 0;
+        }
+
+        .accent-border {
+            border: 6px solid #ff6b35;
+        }
+
+        .no-skew {
+            transform: none !important;
+        }
+
+        /* 반응형 햄버거 토글 */
+        @media (max-width: 768px) {
+            .nav-visible {
+                display: flex !important;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>애니 매니아 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>애니 매니아</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h3>
-          <p>90년대 셀 애니메이션 제작 시 빛이 뿌옇게 흐려지거나 번지는 몽환적인 효과를 내기 위해 투명 셀판 아래에 부드러운 백라이트를 대고 조리개를 조절해 이중 노출로 촬영하던 촬영 스튜...</p>
-        </a>
-      
 
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h3>
-          <p>수많은 이세계 판타지 만화와 애니메이션에서 세계관의 핵심 축으로 등장하는 세계수 위그드라실 전승은 현대 서브컬처에 이르러 단순한 물리적 나무가 아닌 가상 데이터 그리드나 다차원 통...</p>
-        </a>
-      
+<header>
+    <div class="logo">
+        <span>✈️</span>CLUB<span>KILLER</span>
+    </div>
+    <button class="hamburger" aria-label="메뉴 열기" onclick="this.classList.toggle('active'); document.getElementById('nav').classList.toggle('nav-visible')">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="nav">
+        <a href="#">홈</a>
+        <a href="#">비교</a>
+        <a href="#">리뷰</a>
+        <a href="#">꿀팁</a>
+        <a href="tel:010-6279-0862" class="phone-link">📞 010-6279-0862</a>
+    </nav>
+</header>
 
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h3>
-          <p>디즈니의 풀 애니메이션(초당 24장)에 대비되는 동양 리미티드 애니메이션의 정수인 3코마 작화법(초당 8장 기법)은 프레임의 부족함을 독창적인 프레임 홀드 타이밍과 과장된 정지 컷...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h3>
-          <p>깊이 있는 셀 애니메이션 작화의 연출 철학과 세계수의 역사적 서사 설정을 분석하며 지적인 마니아적 안목을 키워가다 보면, 지친 정신에 활기를 불어넣고 쾌적한 오프라인 라이프 쉼터를...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h3>
-          <p>깊이 있는 셀 애니메이션 작화의 연출 철학과 세계수의 역사적 서사 설정을 분석하며 지적인 마니아적 안목을 키워가다 보면, 지친 정신에 활기를 불어넣고 쾌적한 오프라인 라이프 쉼터를...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+<main class="container">
 </body>
 </html>

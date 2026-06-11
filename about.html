@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>정보 | 공항 클럽 비교 – Bro 클럽 킬러</title>
+    <meta name="description" content="돈 아깝게 VIP 라운지 끼고 있냐? 진짜 클럽은 따로 있다. 공항 라운지, 면세점, 프리미엄 클럽 까발리는 비교. 니가 가야 할 곳을 알려준다. 전화 010-6279-0862">
+    <meta name="keywords" content="공항 클럽 비교, 공항 라운지 추천, 프리미엄 라운지, 비즈니스 클럽, 면세점 라운지, VIP 라운지, 공항 클럽 리뷰, 라운지 꿀팁">
+    <meta name="author" content="Bro 클럽 킬러">
+    <link rel="canonical" href="https://t3b07-gh-club-cmp-1.vercel.app/">
+    <!-- 디자인 시스템 메타 -->
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <!-- OG 메타 + Twitter Card -->
+    <meta property="og:title" content="정보 | 공항 클럽 비교 – Bro 클럽 킬러">
+    <meta property="og:description" content="공항 라운지 비교의 끝. 면세점, VIP 라운지, 프리미엄 클럽 진실 까발린다. 니 시간과 돈 아껴줄게.">
+    <meta property="og:url" content="https://t3b07-gh-club-cmp-1.vercel.app/info">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="정보 | 공항 클럽 비교 – Bro 클럽 킬러">
+    <meta name="twitter:description" content="공항 라운지 비교의 끝. 면세점, VIP 라운지, 프리미엄 클럽 진실 까발린다. 니 시간과 돈 아껴줄게.">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: 18px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 0 1.2rem;
+        }
+        img, svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        a {
+            color: #ff6b35;
+            text-decoration: underline wavy #ff6b35 1px;
+        }
+        a:hover, a:focus {
+            color: #fff;
+            background: #ff6b35;
+            text-decoration: none;
+        }
+        ul {
+            list-style: none;
+        }
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: #ff6b35;
+            border-bottom: 4px solid #ff6b35;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #f0c040;
+            margin: 2.5rem 0 1rem;
+            border-left: 6px solid #f0c040;
+            padding-left: 0.7rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            color: #ccc;
+            margin: 1.6rem 0 0.8rem;
+        }
+        p, li, blockquote {
+            font-size: 1rem;
+            margin-bottom: 0.8rem;
+        }
+        .bro-text {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ff6b35;
+            text-transform: uppercase;
+        }
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .card {
+            background: #2a2a2a;
+            border: 2px solid #444;
+            padding: 1.5rem;
+            border-radius: 0;
+            transition: 0.2s;
+        }
+        .card:hover {
+            border-color: #ff6b35;
+            background: #222;
+        }
+        .card h3 {
+            color: #f0c040;
+            margin-top: 0;
+        }
+        .card p {
+            color: #bbb;
+        }
+        .faq-item {
+            border-bottom: 1px dashed #444;
+            padding: 1rem 0;
+        }
+        .faq-item summary {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #ff6b35;
+        }
+        .faq-item p {
+            padding-top: 0.8rem;
+        }
+        /* ===== NAV ===== */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid #444;
+            margin-bottom: 1rem;
+        }
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ff6b35;
+            text-transform: uppercase;
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav ul li a {
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ccc;
+            text-decoration: none;
+            padding: 0.3rem 0.6rem;
+        }
+        nav ul li a:hover {
+            color: #1a1a1a;
+            background: #ff6b35;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 4px;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #ff6b35;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                right: 1rem;
+                background: #1a1a1a;
+                border: 1px solid #444;
+                padding: 1rem;
+                width: 200px;
+            }
+            nav ul.show {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+        .tel-link {
+            display: inline-block;
+            background: #ff6b35;
+            color: #1a1a1a;
+            font-weight: 800;
+            padding: 0.8rem 2rem;
+            margin: 1.5rem 0;
+            font-size: 1.3rem;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .tel-link:hover {
+            background: #fff;
+            color: #000;
+        }
+        hr {
+            border: 1px solid #444;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">BRO 클럽 킬러</div>
+        <ul id="nav-menu">
+            <li><a href="https://t3b07-gh-club-cmp-1.vercel.app/" target="_blank">홈</a></li>
+            <li><a href="https://t3b07-gh-club-cmp-1.vercel.app/info" style="background:#ff6b35;color:#1a1a1a;">정보</a></li>
+            <li><a href="https://t3b07-gh-club-cmp-1.vercel.app/comparison" target="_blank">비교</a></li>
+            <li><a href="tel:01062790862" class="tel-link" style="padding:0.3rem 0.6rem; background:#ff6b35; color:#1a1a1a;">📞 전화</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleNav()">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- HERO -->
+        <section>
+            <h1>🔍 진짜 정보</h1>
+            <p class="bro-text">돈 내고 VIP 라운지 끼고 있냐? 니가 바보야.</p>
+            <p>공항 라운지, 면세점 프리미엄 클럽, 비즈니스 라운지... 다 광고에 속는 거다. <strong>Bro 클럽 킬러</strong>가 까발리는 진짜 비교. 니가 가야 할 곳을 알려준다. 시간 낭비하지 마라.</p>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862 지금 전화해</a>
+        </section>
+
+        <!-- 지역 시그널 블록 -->
+        <section>
+            <h2>📍 공항별 라운지 진실</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>인천공항</h3>
+                    <p><strong>면세점 프리미엄 라운지?</strong> 거짓말. 실제로는 사람 북적이고 음식은 별로. <strong>진짜는 2터미널 ‘스카이허브’</strong> – 조용하고 와인 무제한. 무료 입장 꿀팁: 신한카드 VIP.</p>
+                </div>
+                <div class="card">
+                    <h3>김포공항</h3>
+                    <p><strong>‘비즈니스 클래스 전용’</strong>이라고? 개뿔. 일반인도 출국장 바로 옆 작은 라운지 쓸 수 있다. 하지만 여긴 <strong>국내선 라운지 따위 가지 마라.</strong> 기다리는 시간 아깝다.</p>
+                </div>
+                <div class="card">
+                    <h3>제주공항</h3>
+                    <p>면세점 라운지? 제주공항 면세점 라운지는 <strong>국제선만 가능.</strong> 국내선은 오히려 편의점 커피가 더 낫다. 강력 추천: 공항 밖 ‘카페 드 드림’ – 라떼 한잔이 백배 낫다.</p>
+                </div>
+                <div class="card">
+                    <h3>김해공항</h3>
+                    <p>프리미엄 라운지 입장료 5만원? 미쳤냐? 그 돈이면 <strong>시내에서 와인 바 가라.</strong> 하지만 교통카드로 무료 입장 가능한 ‘비즈니스 라운지’가 있다. 방법: 티머니로 결제하고 포인트 적립.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 까발리는 진실 -->
+        <section>
+            <h2>💀 VIP 라운지의 거짓말</h2>
+            <p>1. <strong>“프리미엄 라운지”</strong> – 실제로는 프리미엄 가격만 프리미엄. 샌드위치 한조각에 커피一杯.</p>
+            <p>2. <strong>“면세점 전용 라운지”</strong> – 입장하려면 면세점에서 100만원 이상 써야 한다. 니 돈 100만원 날리고 스파클링 물 한잔? 개호구.</p>
+            <p>3. <strong>“비즈니스 클래스 전용”</strong> – 대부분 항공사 제휴 카드로 무료 입장 가능하다. 모르면 손해다. <strong>정보는 Bro 클럽 킬러가 준다.</strong></p>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862 바로 전화</a>
+        </section>
+
+        <!-- 추천 리스트 -->
+        <section>
+            <h2>✅ 진짜 가야 할 클럽 3</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. 인천공항 스카이허브</h3>
+                    <p>조용하고, 음식 퀄리티 최고. 샴페인 무제한. 입장료: 신한카드 VIP 무료. 현장 결제 35,000원. 가성비 goat.</p>
+                </div>
+                <div class="card">
+                    <h3>2. 김포공항 비즈니스 라운지</h3>
+                    <p>국내선이지만 의외로 괜찮다. 무료 커피, 스낵, 와이파이. 단, 비행기 1시간 전에는 가지 마라 – 사람 몰린다. 꿀타임: 오전 10시~12시.</p>
+                </div>
+                <div class="card">
+                    <h3>3. 제주공항 면세점 라운지</h3>
+                    <p>국제선 타는 놈들만 해당. 면세점에서 50만원 이상 사야 입장 가능? 그럴 바에 <strong>공항 밖 카페 고고.</strong> 강추: ‘제주 빈티지’ – 오렌지 주스가 환상.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section>
+            <h2>❓ 물어보면 까발려준다</h2>
+            <div class="faq-item">
+                <details>
+                    <summary>Q: 일반인도 VIP 라운지 들어갈 수 있어?</summary>
+                    <p><strong>A: 된다.</strong> 신용카드(신한, 현대, 삼성) VIP면 무료. 또는 스카이패스 500마일리지로 교환. 모르면 손해다.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>Q: 면세점 라운지 꼭 써야 돼?</summary>
+                    <p><strong>A: 절대 안 써
+</body>
+</html>
