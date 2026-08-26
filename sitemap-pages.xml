@@ -16,6 +16,41 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0382.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0383.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0384.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0003.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0006.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0481.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -96,32 +131,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0382.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0383.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0384.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0002.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0003.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -132,11 +142,6 @@
   </url>
   <url>
     <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0005.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0006.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -162,16 +167,6 @@
   </url>
   <url>
     <loc>https://airport-hot-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0011.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-review.mapo-room-guide.xyz/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
